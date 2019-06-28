@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="module">
+			import '../dist/gantt-chart.umd.js';
+		</script>
+	</head>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+		/*
+			CSS custom properties penetrate the Shadow DOM.
+			They are useful to provide custom styling.
+		*/
+		gantt-chart {
+			--font-family: 'Lato', sans-serif;
+		}
+	</style>
+	<body>
+		<gantt-chart
+			width="1150"
+			height="700"
+			margin-top="40"
+			margin-left="40"
+			margin-right="210"
+			margin-bottom="160"
+		></gantt-chart>
+	</body>
+	<script>
+		const element = document.querySelector('gantt-chart');
+
+		const data = {
+			milestones: [
+				{
+					id: 1,
+					taskId: 6,
+					title: 'Milestone B'
+				},
+				{
+					id: 2,
+					taskId: 7,
+					title: 'Milestone A'
+				},
+				{
+					id: 3,
+					taskId: 11,
+					title: 'Milestone C'
+				},
+			],
+			tasks: [
+				{
+					id: 1,
+					title: 'task 1',
+					start: 0,
+					duration: 4,
+					class: 'c1'
+				},
+				{
+					id: 2,
+					title: 'task 2',
+					start: 4,
+					duration: 3,
+					class: 'c1'
+				},
+				{
+					id: 3,
+					title: 'task 3',
+					start: 5,
+					duration: 4,
+					class: 'c1'
+				},
+				{
+					id: 4,
+					title: 'task 4',
+					start: 7,
+					duration: 2,
+					class: 'c1'
+				},
+				{
+					id: 5,
+					title: 'task 5',
+					start: 8,
+					duration: 4,
+					class: 'c1',
+				},
+				{
+					id: 6,
+					title: 'task 6',
+					start: 10,
+					duration: 4,
+					class: 'c1',
+				},
+				{
+					id: 7,
+					title: 'task 7',
+					start: 0,
+					duration: 4,
+					class: 'c3'
+				},
+				{
+					id: 8,
+					title: 'task 8',
+					start: 11,
+					duration: 5,
+					class: 'c3',
+				},
+				{
+					id: 9,
+					title: 'task 9',
+					start: 14,
+					duration: 2,
+					class: 'c2'
+				},
+				{
+					id: 10,
+					title: 'task 10',
+					start: 16,
+					duration: 5,
+					class: 'c2'
+				},
+				{
+					id: 11,
+					title: 'task 11',
+					start: 21,
+					duration: 6,
+					class: 'c2'
+				},
+				{
+					id: 12,
+					title: 'task 12',
+					start: 25,
+					duration: 2,
+					class: 'c2'
+				}
+			]
+		};
+
+		element.data = data;
+	</script>
+</html>
