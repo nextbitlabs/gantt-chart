@@ -1,6 +1,6 @@
 {
   "name": "@nextbitlabs/gantt-chart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Web component of a gantt chart.",
   "main": "dist/gantt-chart.cjs.js",
   "module": "dist/gantt-chart.esm.js",
