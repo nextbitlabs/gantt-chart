@@ -73,7 +73,7 @@ In an html file
 <html>
   <head>
     <script type="module">
-      import 'https://unpkg.com/gantt-chart@latest/dist/gantt-chart.umd.js';
+      import 'https://unpkg.com/@nextbitlabs/gantt-chart@1.0.2/dist/gantt-chart.umd.js';
     </script>
   </head>
   <style>
@@ -127,7 +127,7 @@ In an html file
 With npm:
 
 ```
-npm i gantt-chart
+npm i @nextbitlabs/gantt-chart
 ```
 
 See [demo](https://stackblitz.com/edit/gantt-chart-example).
