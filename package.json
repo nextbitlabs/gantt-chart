@@ -1,5 +1,5 @@
 {
-  "name": "gantt-chart",
+  "name": "@nextbitlabs/gantt-chart",
   "version": "1.0.0",
   "description": "Web component of a gantt chart.",
   "main": "dist/gantt-chart.cjs.js",
@@ -10,7 +10,8 @@
     "dev": "rollup -c -w",
     "pretest": "npm run build",
     "test": "xo src/*",
-    "lint-fix": "xo --fix src/*"
+    "lint-fix": "xo --fix src/*",
+    "release": "np"
   },
   "keywords": [
     "gantt",
@@ -30,6 +31,7 @@
   "bugs": "https://github.com/nextbitlabs/gantt-chart/issues",
   "devDependencies": {
     "hybrids": "^4.0.2",
+    "np": "^5.0.3",
     "rollup": "^1.14.3",
     "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-node-resolve": "^5.0.1",
@@ -37,5 +39,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -132,6 +132,12 @@ npm i gantt-chart
 
 See [demo](https://stackblitz.com/edit/gantt-chart-example).
 
+## Release an update
+
+```
+npm run release
+```
+
 ## License
 
 MIT
