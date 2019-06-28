@@ -27,8 +27,8 @@ Web component implementation of a Gantt chart.
     {
       id: 1,
       title: 'task 1',
-      start: 0, // week number
-      duration: 4, // in weeks
+      start: 0, // Week number.
+      duration: 4, // Duration in weeks.
       class: 'c1'
     },
     ...
