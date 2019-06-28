@@ -106,7 +106,7 @@ In an html file
       milestones: [
         {
           id: 1,
-          taskId: 6,
+          taskId: 1,
           title: 'Milestone A'
         },
       ],
