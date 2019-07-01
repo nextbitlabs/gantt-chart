@@ -43,8 +43,13 @@ export const milestones = {
 					></line>
 					<text
 						dx="-5"
-						dy="${70}"
+						dy="70"
 					>${milestone.title}</text>
+					<text
+						class=date
+						dx="-5"
+						dy="90"
+					>${milestone.date || ''}</text>
 				</g>
 			`;
 		});

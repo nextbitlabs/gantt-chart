@@ -76,5 +76,11 @@ export default html`
 			alignment-baseline: auto;
 		}
 
+		svg g.milestones text.date {
+			font-weight: normal;
+			font-size: var(--font-size, 12px);
+			fill-opacity: 0.7;
+		}
+
 	</style>
 `;

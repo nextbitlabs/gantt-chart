@@ -19,6 +19,7 @@ Web component implementation of a Gantt chart.
       id: 1,
       taskId: 6, // Graphical hint, it may be latest task in the milestone.
       title: 'Milestone A',
+      date: 'July 2019', // Optional.
       additionalVerticalShift: 1 // Optional.
     },
     ...
