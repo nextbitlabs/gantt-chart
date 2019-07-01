@@ -56,6 +56,7 @@ See section [Usage](#usage) for an example.
 
 * `--font-family` defaults to `sans-serif`
 * `--font-size` defaults to `12px`
+* `--background-color` defaults to `white`;
 
 Up to 10 classes can be passed:
 

@@ -65,6 +65,12 @@ export default html`
 			alignment-baseline: central;
 		}
 
+		svg .tasks .ticks line {
+			stroke-width: 1px;
+			stroke: var(--background-color, white);
+			stroke-opacity: 1;
+		}
+
 		svg g.milestones line {
 			stroke: #353839;
 			stroke-width: 2;
