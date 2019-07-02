@@ -3,6 +3,10 @@ import {html} from 'hybrids';
 export default html`
 	<style>
 
+		svg {
+			background: var(--background-color, white);
+		}
+
 		svg rect {
 			fill: #353839;
 		}
