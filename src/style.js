@@ -77,7 +77,7 @@ export default html`
 		}
 
 		svg g.milestones text {
-			font-size: calc(var(--font-size) + 4px);
+			font-size: calc(var(--font-size, 12px) + 4px);
 			text-anchor: end;
 			alignment-baseline: auto;
 		}
