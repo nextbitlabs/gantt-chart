@@ -56,7 +56,8 @@ See section [Usage](#usage) for an example.
 
 * `--font-family` defaults to `sans-serif`
 * `--font-size` defaults to `12px`
-* `--background-color` defaults to `white`;
+* `--background-color` defaults to `white`
+* `--visibility-ticks` defaults to `visible`, set to `hidden` to hide the week ticks
 
 Up to 10 classes can be passed:
 

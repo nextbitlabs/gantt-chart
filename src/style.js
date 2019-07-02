@@ -66,6 +66,7 @@ export default html`
 		}
 
 		svg .tasks .ticks line {
+			visibility: var(--visibility-ticks, visible);
 			stroke-width: 1px;
 			stroke: var(--background-color, white);
 			stroke-opacity: 1;
