@@ -128,18 +128,28 @@ In an html file
 
 With npm:
 
-```
+```sh
 npm i @nextbitlabs/gantt-chart
 ```
 
 See [demo](https://stackblitz.com/edit/gantt-chart-example).
 
-## Release an update
+## Development
 
+Update build on changes with
+
+```sh
+npm run dev
 ```
+
+and see updates on `demo/index.html`.
+
+## Release
+
+```sh
 npm run release
 ```
 
 ## License
 
-MIT
+This project is licensed under the MIT License. See the [license](license) file for details.
