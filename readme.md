@@ -75,6 +75,7 @@ In an html file
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <script type="module">
       import 'https://unpkg.com/@nextbitlabs/gantt-chart@1.0.2/dist/gantt-chart.umd.js';
     </script>
