@@ -87,7 +87,7 @@ In an html file
       they are useful to provide custom styling.
       The gantt-chart webcomponent exposes font-size and font-family custom properties.
     */
-    ternary-plot {
+    gantt-chart {
       --font-family: 'Lato', sans-serif;
     }
   </style>
