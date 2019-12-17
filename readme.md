@@ -138,13 +138,19 @@ See [demo](https://stackblitz.com/edit/gantt-chart-example).
 
 ## Development
 
+Install dependencies with
+
+```sh
+npm install
+```
+
 Update build on changes with
 
 ```sh
 npm run dev
 ```
 
-and see updates on `demo/index.html`.
+and see updates on `./demo/index.html` running a local server from `./`.
 
 ## Release
 
