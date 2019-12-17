@@ -30,7 +30,8 @@ Web component implementation of a Gantt chart.
       title: 'task 1',
       start: 0, // Week number.
       duration: 4, // Duration in weeks.
-      class: 'c1'
+      class: 'c1',
+      progress: // Optional, defaults to 0.
     },
     ...
   ]
@@ -89,6 +90,7 @@ In an html file
     */
     gantt-chart {
       --font-family: 'Lato', sans-serif;
+      --c1: lightblue;
     }
   </style>
   <body>
@@ -121,7 +123,7 @@ In an html file
           start: 0,
           duration: 4,
           class: 'c1',
-          progress: 0.65 // Optional, defaults to 0.
+          progress: 0.65
         },
       ]
     };
