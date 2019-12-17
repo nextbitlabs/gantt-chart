@@ -53,7 +53,6 @@ export default html`
 
 		svg rect.progress {
 			fill: #353839;
-			fill-opacity: 1.;
 		}
 
 		svg text {

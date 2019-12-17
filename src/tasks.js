@@ -43,9 +43,9 @@ export const tasks = {
 					class="${task.class}"
 				></rect>
 				<rect
-					y="${taskVerticalPadding}"
+					y="${taskVerticalPadding + ((taskHeight - (2 * taskVerticalPadding)) * (0.5 - 0.1))}"
 					width="${taskWidth(task.duration * (task.progress || 0.0))}"
-					height="${(taskHeight - (2 * taskVerticalPadding)) * 0.5}"
+					height="${(taskHeight - (2 * taskVerticalPadding)) * 0.2}"
 					rx="0"
 					class="progress"
 				></rect>
