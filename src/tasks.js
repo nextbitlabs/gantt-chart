@@ -42,6 +42,13 @@ export const tasks = {
 					rx="0"
 					class="${task.class}"
 				></rect>
+				<rect
+					y="${taskVerticalPadding}"
+					width="${taskWidth(task.duration * (task.progress || 0.0))}"
+					height="${(taskHeight - (2 * taskVerticalPadding)) * 0.5}"
+					rx="0"
+					class="progress"
+				></rect>
 				<g class="ticks">
 					${ticks(task.duration - 1, taskWidth(task.duration), taskHeight)}
 				</g>

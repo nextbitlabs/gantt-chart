@@ -51,6 +51,11 @@ export default html`
 			fill: var(--c10, gold);
 		}
 
+		svg rect.progress {
+			fill: #353839;
+			fill-opacity: 1.;
+		}
+
 		svg text {
 			font-family: var(--font-family, sans-serif);
 			font-size: var(--font-size, 12px);

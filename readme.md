@@ -120,7 +120,8 @@ In an html file
           title: 'task 1',
           start: 0,
           duration: 4,
-          class: 'c1'
+          class: 'c1',
+          progress: 0.65 // Optional, defaults to 0.
         },
       ]
     };
