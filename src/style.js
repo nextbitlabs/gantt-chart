@@ -70,7 +70,7 @@ export default html`
 		}
 
 		svg .tasks text {
-			alignment-baseline: central;
+			dominant-baseline: middle;
 		}
 
 		svg .tasks .ticks line {
@@ -88,7 +88,6 @@ export default html`
 		svg g.milestones text {
 			font-size: calc(var(--font-size, 12px) + 4px);
 			text-anchor: end;
-			alignment-baseline: auto;
 		}
 
 		svg g.milestones text.date {
